@@ -1,0 +1,14 @@
+{
+  "extends": ["next", "prettier"],
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
+    "semi": "error",
+    "quotes": ["error", "single"],
+    "eqeqeq": "error",
+    "no-unused-vars": "error",
+    "indent": ["error", 2],
+    "no-undef": ["error", { "typeof": true }],
+    "no-var": "error"
+  }
+}
